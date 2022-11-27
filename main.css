@@ -76,6 +76,44 @@ a {
   margin-bottom: 80px;
 }
 
+.component {
+  width: 927px;
+  background: #0079c8;
+  border-radius: 4px;
+  padding: 40px 30px;
+}
+.component_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.component-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #0079c8;
+  padding: 20px 38px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.component_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.component-text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: #ffffff;
+  max-width: 483px;
+}
+
 @media (max-width: 1000px) {
   .main_container {
     flex-direction: column;
