@@ -26,7 +26,7 @@ a {
 }
 .main_title {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1,25rem;
   line-height: 28px;
   color: #333333;
   margin-bottom: 15px;
@@ -78,6 +78,7 @@ a {
 
 .component {
   width: 927px;
+  margin: 0 auto;
   background: #0079c8;
   border-radius: 4px;
   padding: 40px 30px;
@@ -133,5 +134,16 @@ a {
   }
   .copy_img img {
     padding: 20px;
+  }
+  .component {
+    text-align: center;
+    max-width: 100%;
+    
+  }
+  .component_content {
+    flex-direction: column;
+  }
+  .component-text {
+    margin-bottom: 20px;
   }
 }
