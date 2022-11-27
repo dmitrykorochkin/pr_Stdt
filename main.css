@@ -2,24 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
 }
 a {
   text-decoration: none;
 }
-.contaianer {
+.container {
   margin: 0 auto;
   max-width: 1120px;
 }
 .main_container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 72px;
 }
 .main_info {
   padding: 40px 32px 196px 96px;
 }
 .main_title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -27,8 +28,6 @@ a {
   margin-bottom: 15px;
 }
 .main_descr {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 28px;
@@ -39,8 +38,6 @@ a {
   padding: 20px 40px;
   border: 1px solid #0079c8;
   border-radius: 4px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 28px;
@@ -49,6 +46,7 @@ a {
 img {
   display: block;
 }
+/* ****************************************************** */
 
 @media (max-width: 1000px) {
   .main_container {
