@@ -14,7 +14,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1150px;
+  max-width: 1150px;
 }
 .main_container {
   display: flex;
@@ -26,7 +26,7 @@ a {
 }
 .main_title {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1, 25rem;
   line-height: 28px;
   color: #333333;
   margin-bottom: 15px;
@@ -75,6 +75,49 @@ a {
   justify-content: space-between;
   margin-bottom: 80px;
 }
+.copy_img img {
+    width: 233px;
+    height: 300px;
+}
+
+.component {
+  width: 927px;
+  margin: 0 auto;
+  background: #0079c8;
+  border-radius: 4px;
+  padding: 40px 30px;
+}
+.component_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.component-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #0079c8;
+  padding: 20px 38px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.component_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.component-text {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: #ffffff;
+  max-width: 483px;
+}
 
 @media (max-width: 1000px) {
   .main_container {
@@ -83,6 +126,7 @@ a {
   }
   img {
     margin: 0 auto;
+    width: 100%;
   }
   .main_info {
     padding: 40px 32px 100px 32px;
@@ -95,5 +139,17 @@ a {
   }
   .copy_img img {
     padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .component {
+    text-align: center;
+    width: 100vw;
+  }
+  .component_content {
+    flex-direction: column;
+  }
+  .component-text {
+    margin-bottom: 20px;
   }
 }
